@@ -1,0 +1,26 @@
+body {
+    background-color: azure;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: teal;
+    color: whitesmoke;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    border-right: solid whitesmoke;
+    padding: 0px 5px 0px 5px;
+
+}
