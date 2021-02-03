@@ -1,5 +1,10 @@
+:root {
+    --teal: teal;
+    --whitesmoke: whitesmoke;
+}
+
 body {
-    background-color: azure;
+    background-color:var(--whitesmoke);
 }
 
 .header {
@@ -7,11 +12,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: teal;
-    color: whitesmoke;
+    background-color: var(teal);
+    color: var(--whitesmoke);
 }
 
-.my-name {
+.myName {
     font-size: 30px;
 }
 
@@ -23,15 +28,24 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: whitesmoke;
-    border-right: solid whitesmoke;
+    color: var(--whitesmoke);
+    border-right: solid var(--whitesmoke);
     padding: 0px 5px 0px 5px;
 }
 
+nav li:hover {
+    background-color: rgb(1, 68, 68);
+}
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(teal);
+}
 
 @media screen and (max-width: 768px) {
-    .header {
+    .header, footer {
         flex-direction: column;
     }
 }
