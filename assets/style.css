@@ -11,6 +11,10 @@ body {
     color: whitesmoke;
 }
 
+.my-name {
+    font-size: 30px;
+}
+
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -22,5 +26,12 @@ nav a {
     color: whitesmoke;
     border-right: solid whitesmoke;
     padding: 0px 5px 0px 5px;
+}
 
+
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
 }
