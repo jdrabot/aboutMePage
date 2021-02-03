@@ -1,10 +1,7 @@
-:root {
-    --teal: teal;
-    --whitesmoke: whitesmoke;
-}
+
 
 body {
-    background-color:var(--whitesmoke);
+    background-color: whitesmoke;
 }
 
 .header {
@@ -12,8 +9,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: var(teal);
-    color: var(--whitesmoke);
+    background-color: teal;
+    color: whitesmoke;
 }
 
 .myName {
@@ -28,8 +25,8 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: var(--whitesmoke);
-    border-right: solid var(--whitesmoke);
+    color: whitesmoke;
+    border-right: solid whitesmoke;
     padding: 0px 5px 0px 5px;
 }
 
@@ -41,7 +38,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: var(teal);
+    color: teal;
 }
 
 @media screen and (max-width: 768px) {
