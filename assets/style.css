@@ -14,13 +14,14 @@ body {
 }
 
 .myName {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
+    font-weight: bold;
 }
 
 nav a {
@@ -34,11 +35,34 @@ nav li:hover {
     background-color: rgb(1, 68, 68);
 }
 
+
+
 footer {
     display: flex;
-    justify-content: space-between;
+    height: 150px;
+    width: 100%;
+    justify-content: space-around;
     align-items: center;
+    margin: 20px 0px 20px 0px;
     color: teal;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+section ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
+    margin-right: 50px;
+    
+}
+
+section a {
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
