@@ -8,13 +8,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 75px;
     padding: 1%;
+    margin-bottom: 5px;
     background-color: teal;
     color: whitesmoke;
 }
 
 .myName {
     font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul {
@@ -35,7 +40,43 @@ nav li:hover {
     background-color: rgb(1, 68, 68);
 }
 
+section div {
+    display: flex;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: teal;
+    align-items: center;
+}
 
+div img {
+    
+    height: 275px;
+    width:350px;
+}
+
+.aboutMe {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+    color: teal;
+}
+
+div h2 {
+    font-size: 20px;
+    display: flex;
+}
+
+div p {
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    padding-left: 100px;
+    
+}
 
 footer {
     display: flex;
